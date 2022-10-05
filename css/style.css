@@ -1,0 +1,86 @@
+body{
+    height: 100%;
+    /* width: 100%; */
+    background-color: #FAF7FD;
+    font-family: 'Poppins', sans-serif;
+    color: #BB99DD;
+    font-weight: 300;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileImage{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /*para a imagem não ficar esticada, para manter as proporções*/
+    border-radius: 50%;
+    
+}
+
+.socialWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnControl{
+    padding-bottom: 15px;
+}
+
+button{
+    cursor: pointer;
+    width: 300px;
+    height: 40px;
+    background-color: #FAF7FD;
+    color: #BB99DD;
+    border: 2px solid #BB99DD;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+button:hover{
+    transition: 0.2s;
+    outline: 0;
+    color: #FAF7FD;
+    background-color: #a27cc9;
+}
+
+.borderImage{
+    width: 252px;
+    height: 252px;
+    border: 2px solid #BB99DD;
+    border-radius: 50%;
+    position: absolute;
+    padding: 3px;
+}
+
+.socialMedia{
+    margin-top: 40px;
+}
+
+svg{
+    margin-right: 30px;
+    outline: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
